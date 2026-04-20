@@ -1,0 +1,68 @@
+{
+  "best_model": {
+    "model": "GradientBoosting",
+    "roc_auc": 0.7630680470364974,
+    "pr_auc": 0.9462647464746804,
+    "accuracy": 0.8957055214723927,
+    "precision": 0.8951048951048951,
+    "recall": 0.9976617303195636,
+    "f1": 0.9436048654625876
+  },
+  "top_rf_feature": {
+    "feature": "speed_to_delivery_days",
+    "importance": 0.2410974872667458
+  },
+  "top_logit_feature": {
+    "feature": "speed_to_delivery_days",
+    "coef": -0.0167028307770533
+  },
+  "top_region_loss": {
+    "region": "Не указан",
+    "orders": 3324,
+    "buyouts": 2792,
+    "non_buyouts": 532,
+    "buyout_rate": 0.8399518652226233,
+    "total_loss": 8465290.0,
+    "avg_loss_per_order": 2546.717809867629,
+    "avg_loss_per_non_buyout": 16124.361904761903
+  },
+  "top_delivery_loss": {
+    "delivery_service": "СДЭК до ПВЗ",
+    "orders": 5161,
+    "buyouts": 4566,
+    "non_buyouts": 595,
+    "buyout_rate": 0.8847122650649099,
+    "total_loss": 7950671.0,
+    "avg_loss_per_order": 1540.5291610153072,
+    "avg_loss_per_non_buyout": 13521.549319727892
+  },
+  "top_manager_loss": {
+    "manager_id": "MGR_0030",
+    "orders": 1347,
+    "buyouts": 1190,
+    "non_buyouts": 157,
+    "buyout_rate": 0.8834446919079436,
+    "total_loss": 2077685.0,
+    "avg_loss_per_order": 1542.4536005939124,
+    "avg_loss_per_non_buyout": 13233.662420382165
+  },
+  "speed_impact": {
+    "threshold_days": 3,
+    "fast_orders": 6423,
+    "slow_orders": 736,
+    "fast_buyout_rate": 0.9051844932274637,
+    "slow_buyout_rate": 0.7961956521739131,
+    "delta_buyout_rate": 0.10898884105355067,
+    "potential_saved_orders": 80.2157870154133,
+    "potential_saved_revenue": 936198.4502568886
+  },
+  "risk_summary": {
+    "risk_threshold": 0.7,
+    "high_risk_orders": 62,
+    "low_risk_orders": 1405,
+    "high_risk_buyout_rate": 0.1774193548387097,
+    "low_risk_buyout_rate": 0.9053380782918149,
+    "high_risk_total_loss": 630894.0,
+    "low_risk_total_loss": 1948038.0
+  }
+}

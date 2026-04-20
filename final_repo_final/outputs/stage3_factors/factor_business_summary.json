@@ -1,0 +1,11 @@
+{
+  "rows_modelled": 7333,
+  "buyout_rate": 0.8742670121369153,
+  "best_model": "RandomForest",
+  "best_roc_auc": 0.7230717747127996,
+  "best_pr_auc": 0.939952721867015,
+  "top_rf_feature": "speed_to_delivery_days",
+  "top_rf_importance": 0.2410974872667458,
+  "top_logistic_feature": "speed_to_delivery_days",
+  "top_logistic_coef": -0.016702830777053368
+}

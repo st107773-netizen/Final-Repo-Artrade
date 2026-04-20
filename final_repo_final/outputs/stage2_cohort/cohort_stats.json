@@ -1,0 +1,9 @@
+{
+  "rows_input": 7662,
+  "rows_with_sale_date": 7662,
+  "excluded_lifecycle_incomplete": 0,
+  "excluded_unknown_or_open": 500,
+  "excluded_negative_days": 1,
+  "excluded_days_over_60": 94,
+  "rows_final": 7067
+}

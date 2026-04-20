@@ -1,0 +1,10 @@
+{
+  "threshold_days": 3,
+  "fast_orders": 6423,
+  "slow_orders": 736,
+  "fast_buyout_rate": 0.9051844932274637,
+  "slow_buyout_rate": 0.7961956521739131,
+  "delta_buyout_rate": 0.10898884105355067,
+  "potential_saved_orders": 80.2157870154133,
+  "potential_saved_revenue": 936198.4502568886
+}

@@ -1,0 +1,11 @@
+b2c:
+  sla_1_sale_to_handover_hours: 72
+  sla_2_handover_to_issue_days: 14
+  sla_3_issue_to_outcome_days: 14
+  total_cycle_days: 60
+
+rules:
+  exclude_lifecycle_incomplete: true
+  exclude_outcome_unknown: true
+  exclude_negative_durations: true
+  exclude_total_cycle_over_days: 60

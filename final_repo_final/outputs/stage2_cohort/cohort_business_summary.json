@@ -1,0 +1,10 @@
+{
+  "num_cohorts": 302,
+  "median_final_buyout_rate_pct": 96.42401021711366,
+  "p25_final_buyout_rate_pct": 86.24608150470219,
+  "p75_final_buyout_rate_pct": 100.0,
+  "min_final_buyout_rate_pct": 0.0,
+  "max_final_buyout_rate_pct": 100.0,
+  "median_days_to_buyout": 7.0,
+  "avg_days_to_buyout": 8.546563279412945
+}

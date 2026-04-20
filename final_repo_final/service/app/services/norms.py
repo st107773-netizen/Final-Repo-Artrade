@@ -1,0 +1,7 @@
+import yaml
+from app.config import get_settings
+
+def load_norms():
+    settings = get_settings()
+    with open(settings.norms_path, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f)

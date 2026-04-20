@@ -1,0 +1,10 @@
+{
+  "total_estimated_loss": 12409290.0,
+  "buyout_rate": 0.8742670121369153,
+  "best_model": "GradientBoosting",
+  "best_model_roc_auc": 0.7630680470364974,
+  "top_priority_action": "Провести аудит и оптимизацию delivery service: СДЭК до ПВЗ",
+  "top_priority_expected_gain_money": 1192600.65,
+  "top_priority_comment": "Хороший кандидат для пилота: сегмент большой и потери высокие",
+  "recommendations_count": 6
+}

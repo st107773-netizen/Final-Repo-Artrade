@@ -1,0 +1,13 @@
+{
+  "orders_total": 7333,
+  "non_buyout_orders": 922,
+  "buyout_rate": 0.8742670121369153,
+  "total_estimated_loss": 12409290.0,
+  "avg_loss_per_non_buyout": 13459.09978308026,
+  "largest_region_loss": 8465290.0,
+  "largest_delivery_loss": 7950671.0,
+  "largest_manager_loss": 2077685.0,
+  "speed_threshold_days": 3,
+  "potential_saved_orders": 80.2157870154133,
+  "potential_saved_revenue": 936198.4502568886
+}

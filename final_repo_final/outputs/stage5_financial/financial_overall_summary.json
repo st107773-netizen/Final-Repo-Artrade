@@ -1,0 +1,9 @@
+{
+  "orders_total": 7333,
+  "buyout_orders": 6411,
+  "non_buyout_orders": 922,
+  "buyout_rate": 0.8742670121369153,
+  "total_estimated_loss": 12409290.0,
+  "avg_loss_per_non_buyout": 13459.09978308026,
+  "median_order_value": 11671.0
+}

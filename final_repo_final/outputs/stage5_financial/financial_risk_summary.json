@@ -1,0 +1,9 @@
+{
+  "risk_threshold": 0.7,
+  "high_risk_orders": 62,
+  "low_risk_orders": 1405,
+  "high_risk_buyout_rate": 0.1774193548387097,
+  "low_risk_buyout_rate": 0.9053380782918149,
+  "high_risk_total_loss": 630894.0,
+  "low_risk_total_loss": 1948038.0
+}

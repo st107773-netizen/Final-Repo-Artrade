@@ -1,0 +1,61 @@
+erDiagram
+    LEADS ||--o{ CRM_STATUS_EVENTS : has
+    LEADS ||--o{ DELIVERY_STATUS_EVENTS : has
+    LEADS ||--|| SLA_METRICS : has
+
+    LEADS {
+        string lead_id PK
+        datetime lead_created_at
+        datetime sale_ts
+        datetime handed_to_delivery_ts
+        datetime issued_or_pvz_ts
+        datetime received_ts
+        datetime rejected_ts
+        datetime returned_ts
+        datetime closed_ts
+        boolean lifecycle_incomplete
+        boolean buyout_flag
+        boolean outcome_unknown
+        string region
+        string delivery_service
+        string delivery_method
+        string delivery_tariff
+        string payment_type
+        string manager_id
+        string delivery_manager_id
+        string manager_group
+        string rejection_category
+        string source_dataset
+        datetime loaded_at
+        string source_hash
+    }
+
+    CRM_STATUS_EVENTS {
+        int id PK
+        string lead_id FK
+        string status_name
+        datetime status_ts
+    }
+
+    DELIVERY_STATUS_EVENTS {
+        int id PK
+        string lead_id FK
+        string status_name
+        datetime status_ts
+    }
+
+    SLA_METRICS {
+        int id PK
+        string lead_id FK
+        float sla_1_sale_to_handover_hours
+        float sla_2_handover_to_issue_days
+        float sla_3_issue_to_outcome_days
+        float total_cycle_days
+        boolean is_excluded
+        string exclusion_reason
+        boolean sla_1_on_time
+        boolean sla_2_on_time
+        boolean sla_3_on_time
+        boolean total_cycle_on_time
+        datetime calculated_at
+    }

@@ -1,0 +1,14 @@
+{
+  "rows_modelled": 7333,
+  "train_rows": 5866,
+  "test_rows": 1467,
+  "train_buyout_rate": 0.8741902488919195,
+  "test_buyout_rate": 0.874573960463531,
+  "best_model": "GradientBoosting",
+  "best_roc_auc": 0.7630680470364974,
+  "best_pr_auc": 0.9462647464746803,
+  "best_accuracy": 0.8957055214723927,
+  "best_precision": 0.8951048951048951,
+  "best_recall": 0.9976617303195635,
+  "best_f1": 0.9436048654625876
+}
